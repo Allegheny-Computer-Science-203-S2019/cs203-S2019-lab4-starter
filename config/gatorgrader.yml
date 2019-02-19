@@ -7,12 +7,15 @@ indent: 4
 # mdl is a Markdown linting tool
 # proselint checks writing for common mistakes
 report.md:
+    --exists
     mdl
     proselint
 conduct.md:
+    --exists
     mdl
     proselint
 assessment.md:
+    --exists
     mdl
     proselint
 # --> check the number of commits beyond a threshold
